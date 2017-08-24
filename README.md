@@ -14,4 +14,5 @@ sudo cp /etc/sudoers.d/90-cloud-init-users /etc/sudoers.d/grader
 # Edit file garder to Add the name of the user
 sudo nano /etc/sudoers.d/grader
 
-
+165.227.154.97
+user: grader

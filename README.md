@@ -1,6 +1,10 @@
 # Linux-Server-Configuration
 I will take a baseline installation of a Linux distribution on a virtual machine and prepare it to host web applications, to include installing updates, securing it from a number of attack vectors and installing/configuring web and database servers.
 
+IP: 165.227.154.97
+SSH port: 2200
+User: grader
+
 Step-by-step:
 
 1) Create User grader

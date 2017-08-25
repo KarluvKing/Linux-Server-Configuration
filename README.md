@@ -4,15 +4,19 @@ I will take a baseline installation of a Linux distribution on a virtual machine
 Step-by-step:
 
 1) Create User grader
-sudo adduser grader
 
 2) Add grader to sudo Group
-# Open directory of sudoers group
-sudo ls /etc/sudoers.d/
-# Copy file from an existing user and change the name of the file for the User Grader
-sudo cp /etc/sudoers.d/90-cloud-init-users /etc/sudoers.d/grader
-# Edit file garder to Add the name of the user
-sudo nano /etc/sudoers.d/grader
 
-165.227.154.97
-user: grader
+3) Disable root access from SSH
+
+4) Configure firewall - Allow connections only for ports with number: SSH 2200, HTTP 80, NTP 123.
+
+5) Create a Key-Based SSH for SSH Login.
+
+6) Enable login access only for Key-Based
+
+7) Update and Upgrade Server System
+
+8) Install Apache Server Service
+
+9) Clone Git repositorie and make the project available to display on server by HTTP
